@@ -9,10 +9,8 @@ class LinkedList {
 
 protected:
 	struct Node {
-
 		T _value;
 		Node* _next;
-
 		Node(T value, Node* next = NULL):_value(value), _next(next)
 		{}
 	};
